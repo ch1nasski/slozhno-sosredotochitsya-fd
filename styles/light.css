@@ -1,0 +1,34 @@
+/*
+ Светлая тема: переопределение переменных.
+*/
+
+:root.theme-light {
+  --page-bg-image: url(../images/cover-image-light.png);
+  --page-bg-color: #fff1f7;
+  --text-color: #353430;
+  --section-title-color: #353430;
+  --title-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --title-decor-color: #353430;
+  --button-color: #353430;
+  --button-hover-color: rgb(53 52 48 / 0.4);
+  --decor-color: #353430;
+  --rec-display: none;
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --page-bg-image: url(../images/cover-image-light.png);
+    --page-bg-color: #fff1f7;
+    --text-color: #353430;
+    --section-title-color: #353430;
+    --title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --title-decor-color: #353430;
+    --button-color: #353430;
+    --button-hover-color: rgb(53 52 48 / 0.4);
+    --decor-color: #353430;
+    --rec-display: none;
+  }
+}

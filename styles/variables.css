@@ -1,0 +1,45 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+
+:root {
+  --main-font: 'IBM Plex mono', monospace;
+  --base-font-size: 18px;
+  --base-line-height: 1.3;
+
+  --header-min-height-mobile: 668px;
+  --header-min-height-tablet: 1024px;
+  --header-min-height-desktop: 768px;
+  --header-padding-mobile: 10px;
+  --header-padding-desktop: 20px;
+  --main-padding-mobile: 40px 10px;
+  --main-padding-desktop: 60px 20px;
+  --main-gap-mobile: 50px;
+  --main-gap-desktop: 80px;
+  --content-gap: 20px;
+
+  --header-title-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-title-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --header-title-line-height: 0.83;
+  --header-title-shadow: 4px 4px 0 var(--accent-color);
+  --footer-title-shadow: 2px 2px 0 var(--accent-color);
+
+  --decor-offset-mobile: 10px;
+  --decor-offset-desktop: 20px;
+  --rec-right-mobile: 38px;
+  --rec-right-desktop: 48px;
+  --page-bg-image: url(../images/cover-image-dark.png);
+  --page-bg-color: #000028;
+
+  --text-color: #f1b2ce;
+  --section-title-color: #ff0070;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --title-decor-color: #000028;
+  --button-color: #ff0070;
+  --button-hover-color: rgb(255 0 112 / 0.4);
+  --decor-color: #ff0070;
+
+  --rec-display: block;
+}
