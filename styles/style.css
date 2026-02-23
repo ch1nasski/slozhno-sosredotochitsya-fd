@@ -23,7 +23,7 @@
 .footer {
   min-height: var(--header-min-height-mobile);
   height: 100vh;
-  padding-block: var(--header-padding-mobile);
+  padding: var(--header-padding-mobile);
 }
 
 .header {
@@ -85,7 +85,6 @@
   justify-self: end;
   align-self: start;
   margin-block-start: 65px;
-  margin-inline-end: var(--header-padding-mobile);
 }
 
 .header__theme-menu-list {
@@ -228,8 +227,7 @@
   justify-self: end;
   align-self: center;
   margin: 0;
-  margin-inline-end: var(--header-padding-mobile);
-  inline-size: min(355px, calc(100% - 20px));
+  inline-size: min(355px, 100%);
   font-size: var(--base-font-size);
   line-height: var(--base-line-height);
   font-weight: 700;
@@ -253,7 +251,7 @@
   .header,
   .footer {
     min-height: var(--header-min-height-tablet);
-    padding-block: var(--header-padding-desktop);
+    padding: var(--header-padding-desktop);
   }
 
   .decorated-zone::before {
@@ -276,11 +274,10 @@
   }
 
   .header__theme-menu {
-    margin-inline-end: var(--header-padding-desktop);
+    margin-inline-end: 0;
   }
 
   .header__description {
-    margin-inline-end: var(--header-padding-desktop);
     inline-size: 50%;
   }
 
