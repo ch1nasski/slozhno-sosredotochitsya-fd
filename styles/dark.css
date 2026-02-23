@@ -13,5 +13,6 @@
   --button-color: #ff0070;
   --button-hover-color: rgb(255 0 112 / 0.4);
   --decor-color: #ff0070;
+  --footer-title-shadow: 2px 2px 0 #ff0070;
   --rec-display: block;
 }

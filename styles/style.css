@@ -167,6 +167,10 @@
   font-weight: 700;
 }
 
+.content-card__title + .content-card__title {
+  margin-top: var(--content-gap);
+}
+
 .content-card__title_regular {
   font-weight: 400;
 }
@@ -271,10 +275,13 @@
 
   .header__title {
     font-size: var(--header-title-size-desktop);
+    margin-inline-start: -20px;
+    text-shadow: 4px 4px 0 var(--accent-color);
   }
 
   .header__theme-menu {
     margin-inline-end: 0;
+    margin-block-start: 172px;
   }
 
   .header__description {
@@ -347,5 +354,9 @@
 
   .content-section_factors .content-section__content_wide {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer__title {
+    text-shadow: 2px 2px 0 #ff0070;
   }
 }
